@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-image: url("b3.jpg");
+    background-size: cover;
+    
+}
+
+.iocn{
+    margin-top: 50px;
+    font-weight: 200;
+    color: white;
+    height: 100px;
+    width:200px;
+    padding-left: 25px;
+}
+
+.iocn i{
+    font-size: 40px;
+    margin-top: 30px;
+    padding-left: 20px;
+    color: antiquewhite;
+
+}
+
+.iocn i:hover{
+    width: 2px;
+    height: 2px;
+    animation:rotate 5s infinite linear; /* Change properties based on your animation needs */
+}
+
+@keyframes rotate {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* .nav-bar{
+    display:flex;
+    border:2px solid black;
+    height: 300px;
+    width:100%;
+    background-color: darkslategray;
+} */
+
+.aboutme{
+    height: 800px;
+    width:100%;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+
+.intro{
+    padding-top: 50px;
+    padding-left: 25px;
+    font-size: 3rem;
+    color: white;
+}
+
+.intro-1{
+    display: flex;
+    justify-content:left;
+    margin-top: 25px;
+    font-size: 1.5rem;
+    
+}
+
+.intro-1 a{
+    text-decoration: none;
+    padding-left: 90px;
+    color:cornflowerblue;
+    font-weight: 600;
+}
+
+.intro-1 a:hover{
+    color: skyblue;
+}
+
+.about-1{
+    padding-left: 200px;
+    padding-right: 700px; 
+    padding-top: 70px;
+    height: 10px;
+    color:white;
+    font-size: 30px;
+}
+
+.about-11{
+    background-size: cover;
+}
+
+.box{
+    /** border:2px solid black;**/
+     height:500px;
+     width:400px;
+     background-color: white;
+     margin-left:900px;
+     /* padding: 20px 0px 15px;
+     margin: 15px; */
+ }
+ 
+ /* .boximage1{
+     background-size: cover;
+     height: 300px;
+     margin-top: 0.5rem;
+     margin-bottom: 0.5rem;
+ } */
+
+.about-2{
+    display: flex;
+    justify-content:left;
+    font-size: 1.5rem;
+}
+
+ .about-2 a{
+    text-decoration: none;
+    padding-left: 90px;
+    color:cornflowerblue;
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 400px;
+ }
+
+ .about-work a{
+    text-decoration: none;
+    padding-left:0px;
+    color:cornflowerblue;
+    font-weight: 600;
+    font-size: 40px;
+ }
+
+ @media screen and (max-width: 768px) {
+    .aboutme {
+        padding: 10px;
+    }
+
+    .intro-1 a {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .about-1 {
+        font-size: 14px;
+    }
+
+    .about-work a,
+    .about-2 a {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+}
+
